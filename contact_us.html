@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Contact Us - S.L Repair & Service Center</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body, html {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.941);
+        }
+
+        .gradient-background {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+            background-size: 180% 180%;
+            animation: gradient-animation 18s ease infinite;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.304);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .contact-info, .connect-with-us {
+            margin-bottom: 20px;
+        }
+
+        .contact-info ul, .connect-with-us ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact-info li, .connect-with-us li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info strong, .connect-with-us strong {
+            font-weight: bold;
+        }
+
+        .map-container iframe {
+            border: 0;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.941);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00bfff;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body class="gradient-background">
+  <div style="background-color: rgba(0, 0, 0, 0.941);">
+    <header class="d-flex flex-wrap  align-items-center py-3 ">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" style="margin-left: 30px;">
+        <img src="img/logo.png" style="height: 40px;"><br><br>
+        <span style="color: white; font-size: 20px; margin-left: 10px;">S.L REPAIR & SERVICE CENTER</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <ul class="nav nav-pills" style="margin-right: 30px;">
+        <li class="nav-item"><a href="project_home.html" class="nav-link" >Home</a></li>
+        <li class="nav-item"><a href="customer_login.html" class="nav-link">Customer</a></li>
+        <li class="nav-item"><a href="mechanic_login.html" class="nav-link">Mechanic</a></li>
+        <li class="nav-item"><a href="admin_login.html" class="nav-link">Admin</a></li>
+        <li class="nav-item"><a href="contact_us.html" class="nav-link active" aria-current="page">Contact Us</a></li>
+    </ul>
+    </header>
+  </div>
+
+  <div class="container mt-5">
+    <h1>Contact Us</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-6 contact-info">
+        <h4>Company Information</h4>
+        <ul>
+          <li><strong>Company Name:</strong> S.L Mechanic Workshop</li>
+          <li><strong>Owner Name:</strong> Natarajan</li>
+          <li><strong>Contact No:</strong> +91 9840248156</li>
+          <li><strong>Email:</strong> <a href="mailto:rajajayanth2@gmail.com">rajajayanth2@gmail.com</a></li>
+          <li><strong>Location:</strong> B Colony, Alex Nagar, Madhavaram, Chennai-600051</li>
+          <li><strong>Open Hours:</strong> Mon - Fri: 10:00 AM - 8:00 PM</li>
+        </ul>
+      </div>
+      <div class="col-md-6 connect-with-us">
+        <h4>Connect With Us</h4>
+        <ul>
+          <!-- WhatsApp -->
+          <li>
+            <img src="img/whtsapp.png" style="height: 20px;">
+            <a href="https://wa.me/919840248156" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i> +91 9840248156
+            </a>
+          </li>
+          <!-- Instagram -->
+          <li>
+            <img src="img/insta.png" style="height: 20px;">
+            <a href="https://www.instagram.com/xyzmechanics/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i> @s.l_mechanic
+            </a>
+          </li>
+          <!-- Facebook -->
+          <li>
+            <img src="img/facebook.png" style="height: 20px;">
+            <a href="https://www.facebook.com/xyzmechanics/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook"></i> @s.l_mechanic
+            </a>
+          </li>
+        </ul>
+        <p>Feel free to reach out to us via WhatsApp, Instagram, or Facebook for quick responses and updates!</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <h4>Our Location</h4>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.5639989963613!2d80.20228731535425!3d13.168024415928388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261182bff1b8b%3A0x33faeae996f02a82!2sB%20Colony%2C%20Madhavaram%2C%20Chennai%2C%20Tamil%20Nadu%20600051!5e0!3m2!1sen!2sin!4v1629786459261!5m2!1sen!2sin"
+            width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 S.L Repair & Service Center. All rights reserved.</p>
+  </footer>
+
+  <!-- Font Awesome script -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
